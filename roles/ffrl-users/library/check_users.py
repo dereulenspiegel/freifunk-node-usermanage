@@ -16,7 +16,6 @@ class CheckUsers(object):
     self.cusers = self.module.params["users_var"]
 
   def main(self):
-    #self.module.fail_json(msg="Cuser var '{}'".format(self.cusers['users_db'][0]['comment']))
     users = pwd.getpwall()
     count = 0
     for user in users:
