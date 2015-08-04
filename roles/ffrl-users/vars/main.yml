@@ -1,0 +1,6 @@
+---
+# vars file for ffrl-usermanagement
+
+usermanage_user_source_files:
+- path: "../data_bags/{{ffrl_community}}/"
+  databag: true

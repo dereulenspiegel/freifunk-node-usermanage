@@ -1,0 +1,6 @@
+---
+# tasks file for ffrl-usermanagement
+- debug: var=cuser
+
+- name: Verify users
+  check_users: users_var="{{cuser}}"
