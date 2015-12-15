@@ -1,0 +1,5 @@
+---
+
+usermanage_user_source_files:
+- path: "../databags/{{ffrl_community}}/users/"
+  databag: true
