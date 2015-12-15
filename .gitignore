@@ -1,4 +1,5 @@
 .vagrant
 .kitchen/
 .kitchen.*.yml
+.vault-password
 secrets
